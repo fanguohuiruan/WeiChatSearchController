@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064C3477207B3A6000F5DEBA /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = 064C3476207B3A6000F5DEBA /* country.txt */; };
+		064C3479207B3B8500F5DEBA /* CountryManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064C3478207B3B8500F5DEBA /* CountryManagerModel.swift */; };
+		068E79A5207A17C90033AE9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068E79A4207A17C90033AE9F /* AppDelegate.swift */; };
+		068E79A7207A17C90033AE9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068E79A6207A17C90033AE9F /* ViewController.swift */; };
+		068E79AA207A17C90033AE9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068E79A8207A17C90033AE9F /* Main.storyboard */; };
+		068E79AC207A17C90033AE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068E79AB207A17C90033AE9F /* Assets.xcassets */; };
+		068E79AF207A17C90033AE9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068E79AD207A17C90033AE9F /* LaunchScreen.storyboard */; };
+		068E79BA207A17C90033AE9F /* CustomWeiChatSearchControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068E79B9207A17C90033AE9F /* CustomWeiChatSearchControllerTests.swift */; };
+		068E79C5207A17C90033AE9F /* CustomWeiChatSearchControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068E79C4207A17C90033AE9F /* CustomWeiChatSearchControllerUITests.swift */; };
+		068E79D3207A18560033AE9F /* WeiChatSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068E79D2207A18560033AE9F /* WeiChatSearchViewController.swift */; };
+		068E79D5207A19CC0033AE9F /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068E79D4207A19CC0033AE9F /* CustomSearchBar.swift */; };
+		068E79D7207A1FEB0033AE9F /* WeiChatSearchResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068E79D6207A1FEB0033AE9F /* WeiChatSearchResultVC.swift */; };
+		068E79D9207AF8D20033AE9F /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068E79D8207AF8D20033AE9F /* CustomNavigationView.swift */; };
+		06FCAE04207B4AFA0000B54A /* UINavigationController+StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FCAE03207B4AFA0000B54A /* UINavigationController+StatusBar.swift */; };
+		06FCAE06207B4ED50000B54A /* SearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FCAE05207B4ED50000B54A /* SearchDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068E79B6207A17C90033AE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 068E7999207A17C90033AE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068E79A0207A17C90033AE9F;
+			remoteInfo = CustomWeiChatSearchController;
+		};
+		068E79C1207A17C90033AE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 068E7999207A17C90033AE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068E79A0207A17C90033AE9F;
+			remoteInfo = CustomWeiChatSearchController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064C3476207B3A6000F5DEBA /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country.txt; sourceTree = "<group>"; };
+		064C3478207B3B8500F5DEBA /* CountryManagerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryManagerModel.swift; sourceTree = "<group>"; };
+		068E79A1207A17C90033AE9F /* CustomWeiChatSearchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomWeiChatSearchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		068E79A4207A17C90033AE9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		068E79A6207A17C90033AE9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		068E79A9207A17C90033AE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		068E79AB207A17C90033AE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		068E79AE207A17C90033AE9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		068E79B0207A17C90033AE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068E79B5207A17C90033AE9F /* CustomWeiChatSearchControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomWeiChatSearchControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		068E79B9207A17C90033AE9F /* CustomWeiChatSearchControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWeiChatSearchControllerTests.swift; sourceTree = "<group>"; };
+		068E79BB207A17C90033AE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068E79C0207A17C90033AE9F /* CustomWeiChatSearchControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomWeiChatSearchControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		068E79C4207A17C90033AE9F /* CustomWeiChatSearchControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWeiChatSearchControllerUITests.swift; sourceTree = "<group>"; };
+		068E79C6207A17CA0033AE9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068E79D2207A18560033AE9F /* WeiChatSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiChatSearchViewController.swift; sourceTree = "<group>"; };
+		068E79D4207A19CC0033AE9F /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		068E79D6207A1FEB0033AE9F /* WeiChatSearchResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiChatSearchResultVC.swift; sourceTree = "<group>"; };
+		068E79D8207AF8D20033AE9F /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		06FCAE03207B4AFA0000B54A /* UINavigationController+StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+StatusBar.swift"; sourceTree = "<group>"; };
+		06FCAE05207B4ED50000B54A /* SearchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068E799E207A17C90033AE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068E79B2207A17C90033AE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068E79BD207A17C90033AE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068E7998207A17C90033AE9F = {
+			isa = PBXGroup;
+			children = (
+				068E79A3207A17C90033AE9F /* CustomWeiChatSearchController */,
+				068E79B8207A17C90033AE9F /* CustomWeiChatSearchControllerTests */,
+				068E79C3207A17C90033AE9F /* CustomWeiChatSearchControllerUITests */,
+				068E79A2207A17C90033AE9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		068E79A2207A17C90033AE9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				068E79A1207A17C90033AE9F /* CustomWeiChatSearchController.app */,
+				068E79B5207A17C90033AE9F /* CustomWeiChatSearchControllerTests.xctest */,
+				068E79C0207A17C90033AE9F /* CustomWeiChatSearchControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		068E79A3207A17C90033AE9F /* CustomWeiChatSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				068E79A4207A17C90033AE9F /* AppDelegate.swift */,
+				068E79A6207A17C90033AE9F /* ViewController.swift */,
+				06FCAE03207B4AFA0000B54A /* UINavigationController+StatusBar.swift */,
+				068E79D8207AF8D20033AE9F /* CustomNavigationView.swift */,
+				068E79D4207A19CC0033AE9F /* CustomSearchBar.swift */,
+				068E79D2207A18560033AE9F /* WeiChatSearchViewController.swift */,
+				068E79D6207A1FEB0033AE9F /* WeiChatSearchResultVC.swift */,
+				06FCAE05207B4ED50000B54A /* SearchDetailViewController.swift */,
+				064C3478207B3B8500F5DEBA /* CountryManagerModel.swift */,
+				068E79A8207A17C90033AE9F /* Main.storyboard */,
+				068E79AB207A17C90033AE9F /* Assets.xcassets */,
+				068E79AD207A17C90033AE9F /* LaunchScreen.storyboard */,
+				064C3476207B3A6000F5DEBA /* country.txt */,
+				068E79B0207A17C90033AE9F /* Info.plist */,
+			);
+			path = CustomWeiChatSearchController;
+			sourceTree = "<group>";
+		};
+		068E79B8207A17C90033AE9F /* CustomWeiChatSearchControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				068E79B9207A17C90033AE9F /* CustomWeiChatSearchControllerTests.swift */,
+				068E79BB207A17C90033AE9F /* Info.plist */,
+			);
+			path = CustomWeiChatSearchControllerTests;
+			sourceTree = "<group>";
+		};
+		068E79C3207A17C90033AE9F /* CustomWeiChatSearchControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				068E79C4207A17C90033AE9F /* CustomWeiChatSearchControllerUITests.swift */,
+				068E79C6207A17CA0033AE9F /* Info.plist */,
+			);
+			path = CustomWeiChatSearchControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068E79A0207A17C90033AE9F /* CustomWeiChatSearchController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068E79C9207A17CA0033AE9F /* Build configuration list for PBXNativeTarget "CustomWeiChatSearchController" */;
+			buildPhases = (
+				068E799D207A17C90033AE9F /* Sources */,
+				068E799E207A17C90033AE9F /* Frameworks */,
+				068E799F207A17C90033AE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomWeiChatSearchController;
+			productName = CustomWeiChatSearchController;
+			productReference = 068E79A1207A17C90033AE9F /* CustomWeiChatSearchController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		068E79B4207A17C90033AE9F /* CustomWeiChatSearchControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068E79CC207A17CA0033AE9F /* Build configuration list for PBXNativeTarget "CustomWeiChatSearchControllerTests" */;
+			buildPhases = (
+				068E79B1207A17C90033AE9F /* Sources */,
+				068E79B2207A17C90033AE9F /* Frameworks */,
+				068E79B3207A17C90033AE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				068E79B7207A17C90033AE9F /* PBXTargetDependency */,
+			);
+			name = CustomWeiChatSearchControllerTests;
+			productName = CustomWeiChatSearchControllerTests;
+			productReference = 068E79B5207A17C90033AE9F /* CustomWeiChatSearchControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		068E79BF207A17C90033AE9F /* CustomWeiChatSearchControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068E79CF207A17CA0033AE9F /* Build configuration list for PBXNativeTarget "CustomWeiChatSearchControllerUITests" */;
+			buildPhases = (
+				068E79BC207A17C90033AE9F /* Sources */,
+				068E79BD207A17C90033AE9F /* Frameworks */,
+				068E79BE207A17C90033AE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				068E79C2207A17C90033AE9F /* PBXTargetDependency */,
+			);
+			name = CustomWeiChatSearchControllerUITests;
+			productName = CustomWeiChatSearchControllerUITests;
+			productReference = 068E79C0207A17C90033AE9F /* CustomWeiChatSearchControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		068E7999207A17C90033AE9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "范国徽";
+				TargetAttributes = {
+					068E79A0207A17C90033AE9F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					068E79B4207A17C90033AE9F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 068E79A0207A17C90033AE9F;
+					};
+					068E79BF207A17C90033AE9F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 068E79A0207A17C90033AE9F;
+					};
+				};
+			};
+			buildConfigurationList = 068E799C207A17C90033AE9F /* Build configuration list for PBXProject "CustomWeiChatSearchController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 068E7998207A17C90033AE9F;
+			productRefGroup = 068E79A2207A17C90033AE9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				068E79A0207A17C90033AE9F /* CustomWeiChatSearchController */,
+				068E79B4207A17C90033AE9F /* CustomWeiChatSearchControllerTests */,
+				068E79BF207A17C90033AE9F /* CustomWeiChatSearchControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068E799F207A17C90033AE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068E79AF207A17C90033AE9F /* LaunchScreen.storyboard in Resources */,
+				064C3477207B3A6000F5DEBA /* country.txt in Resources */,
+				068E79AC207A17C90033AE9F /* Assets.xcassets in Resources */,
+				068E79AA207A17C90033AE9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068E79B3207A17C90033AE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068E79BE207A17C90033AE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068E799D207A17C90033AE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064C3479207B3B8500F5DEBA /* CountryManagerModel.swift in Sources */,
+				068E79A7207A17C90033AE9F /* ViewController.swift in Sources */,
+				068E79D7207A1FEB0033AE9F /* WeiChatSearchResultVC.swift in Sources */,
+				068E79D3207A18560033AE9F /* WeiChatSearchViewController.swift in Sources */,
+				068E79D9207AF8D20033AE9F /* CustomNavigationView.swift in Sources */,
+				068E79D5207A19CC0033AE9F /* CustomSearchBar.swift in Sources */,
+				068E79A5207A17C90033AE9F /* AppDelegate.swift in Sources */,
+				06FCAE06207B4ED50000B54A /* SearchDetailViewController.swift in Sources */,
+				06FCAE04207B4AFA0000B54A /* UINavigationController+StatusBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068E79B1207A17C90033AE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068E79BA207A17C90033AE9F /* CustomWeiChatSearchControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		068E79BC207A17C90033AE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068E79C5207A17C90033AE9F /* CustomWeiChatSearchControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		068E79B7207A17C90033AE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 068E79A0207A17C90033AE9F /* CustomWeiChatSearchController */;
+			targetProxy = 068E79B6207A17C90033AE9F /* PBXContainerItemProxy */;
+		};
+		068E79C2207A17C90033AE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 068E79A0207A17C90033AE9F /* CustomWeiChatSearchController */;
+			targetProxy = 068E79C1207A17C90033AE9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		068E79A8207A17C90033AE9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068E79A9207A17C90033AE9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		068E79AD207A17C90033AE9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				068E79AE207A17C90033AE9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		068E79C7207A17CA0033AE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		068E79C8207A17CA0033AE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		068E79CA207A17CA0033AE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomWeiChatSearchController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youcompany.combina.CustomWeiChatSearchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		068E79CB207A17CA0033AE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomWeiChatSearchController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youcompany.combina.CustomWeiChatSearchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		068E79CD207A17CA0033AE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomWeiChatSearchControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youcompany.combina.CustomWeiChatSearchControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomWeiChatSearchController.app/CustomWeiChatSearchController";
+			};
+			name = Debug;
+		};
+		068E79CE207A17CA0033AE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomWeiChatSearchControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youcompany.combina.CustomWeiChatSearchControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomWeiChatSearchController.app/CustomWeiChatSearchController";
+			};
+			name = Release;
+		};
+		068E79D0207A17CA0033AE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomWeiChatSearchControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youcompany.combina.CustomWeiChatSearchControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomWeiChatSearchController;
+			};
+			name = Debug;
+		};
+		068E79D1207A17CA0033AE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomWeiChatSearchControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youcompany.combina.CustomWeiChatSearchControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomWeiChatSearchController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068E799C207A17C90033AE9F /* Build configuration list for PBXProject "CustomWeiChatSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068E79C7207A17CA0033AE9F /* Debug */,
+				068E79C8207A17CA0033AE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068E79C9207A17CA0033AE9F /* Build configuration list for PBXNativeTarget "CustomWeiChatSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068E79CA207A17CA0033AE9F /* Debug */,
+				068E79CB207A17CA0033AE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068E79CC207A17CA0033AE9F /* Build configuration list for PBXNativeTarget "CustomWeiChatSearchControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068E79CD207A17CA0033AE9F /* Debug */,
+				068E79CE207A17CA0033AE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068E79CF207A17CA0033AE9F /* Build configuration list for PBXNativeTarget "CustomWeiChatSearchControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068E79D0207A17CA0033AE9F /* Debug */,
+				068E79D1207A17CA0033AE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 068E7999207A17C90033AE9F /* Project object */;
+}
